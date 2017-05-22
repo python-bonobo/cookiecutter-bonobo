@@ -30,3 +30,12 @@ Complete example, with clean virtualenv creation
     $ pip install -r etl-project/requirements.txt
     $ bonobo run etl-project/__main__.py
     
+What's in there?
+::::::::::::::::
+
+* .env: environment file, ignored by git.
+* Makefile: simple make targets to install dependencies. Not much here, but `make` will install the requirements.
+* __main__.py: example graph.
+* _services.py: services definitions, will be used at runtime.
+* output: placeholder directory for output files.
+* requirements.txt: python requirements for your project.
