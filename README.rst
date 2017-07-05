@@ -3,7 +3,7 @@ cookiecutter-bonobo
 
 A cookiecutter template to create an ETL project that uses bonobo.
 
-Quick start: https://www.bonobo-project.org/with/cookiecutter
+**Quick start**: https://www.bonobo-project.org/with/cookiecutter
 
 What's in there?
 ::::::::::::::::
