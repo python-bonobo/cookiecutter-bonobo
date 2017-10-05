@@ -5,4 +5,6 @@ install:
 
 test:
 	cookiecutter --no-input .
+	tree etl-project
+	rm -rf etl-project
 
