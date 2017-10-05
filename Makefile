@@ -6,5 +6,6 @@ install:
 test:
 	cookiecutter --no-input .
 	@ls -Rlsah etl-project
+	bonobo run etl-project
 	@rm -rf etl-project
 
